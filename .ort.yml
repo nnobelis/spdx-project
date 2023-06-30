@@ -1,13 +1,13 @@
-#package_configurations:
-#  - id: "SpdxDocumentFile::spdx-dependency:"
-#    vcs:
-#      type: "Git"
-#      url: "https://github.com/nnobelis/spdx-dependency.git"
-#    license_finding_curations:
-#      - path: "README.md"
-#        start_lines: "4"
-#        line_count: 1
-#        detected_license: "GPL-3.0-only"
-#        concluded_license: "NONE"
-#        reason: "INCORRECT"
-#        comment: "This is an example how to fix a detected license"
+package_configurations:
+  - id: "SpdxDocumentFile::spdx-dependency:"
+    vcs:
+      type: "Git"
+      url: "https://github.com/nnobelis/spdx-dependency.git"
+    license_finding_curations:
+      - path: "README.md"
+        start_lines: "4"
+        line_count: 1
+        detected_license: "GPL-3.0-only"
+        concluded_license: "NONE"
+        reason: "INCORRECT"
+        comment: "This is an example how to fix a detected license"
