@@ -1,0 +1,25 @@
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.2"
+creationInfo:
+  created: "2020-09-25T00:00:00Z"
+  creators:
+    - "Nicolas Nobelis"
+name: "spdx-project"
+documentNamespace: "bosch://nino/spdx-project"
+documentDescribes:
+  - "SPDXRef-Package-spdx-project"
+packages:
+- SPDXID: "SPDXRef-Package-spdx-dependency"
+  copyrightText: "NONE"
+  downloadLocation: "https://github.com/nnobelis/spdx-dependency.git"
+  filesAnalyzed: false
+  homepage: "https://www.example.com"
+  licenseConcluded: "NONE"
+  licenseDeclared: "GPL-3.0-only"
+  packageFileName: "./external/spdx-dependency"
+  name: "spdx-dependency"
+  originator: "Person: Nicolas Nobelis"
+relationships:
+- spdxElementId:      "SPDXRef-Package-spdx-project"
+  relationshipType:   "STATIC_LINK"
+  relatedSpdxElement: "SPDXRef-Package-spdx-dependency"
