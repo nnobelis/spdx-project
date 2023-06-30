@@ -1,3 +1,3 @@
 [submodule "spdx-dependency"]
 	path = spdx-dependency
-	url = git@github.com:nnobelis/spdx-dependency.git
+	url = https://github.com/nnobelis/spdx-dependency.git
