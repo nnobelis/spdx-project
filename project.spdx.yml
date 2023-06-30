@@ -12,16 +12,17 @@ packages:
 # base package
 - SPDXID: "SPDXRef-Package-spdx-project"
   copyrightText: "NONE"
-  downloadLocation: "https://github.com/nnobelis/spdx-project.git"
+  downloadLocation: "git+https://github.com/nnobelis/spdx-project.git"
   filesAnalyzed: false
   homepage: "NONE"
   licenseConcluded: "NONE"
   licenseDeclared: "Apache-2.0"
   name: "spdx-project"
   originator: "Person: Nicolas Nobelis"
+#
 - SPDXID: "SPDXRef-Package-spdx-dependency"
   copyrightText: "NONE"
-  downloadLocation: "https://github.com/nnobelis/spdx-dependency.git"
+  downloadLocation: "git+https://github.com/nnobelis/spdx-dependency.git"
   filesAnalyzed: false
   homepage: "NONE"
   licenseConcluded: "NONE"
