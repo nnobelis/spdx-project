@@ -16,7 +16,7 @@ packages:
   filesAnalyzed: false
   homepage: "NONE"
   licenseConcluded: "NONE"
-  licenseDeclared: "Apache-2.0"
+  licenseDeclared: "LicenseRef-Bosch-Proprietary"
   name: "spdx-project"
   originator: "Person: Nicolas Nobelis"
 #
@@ -26,7 +26,7 @@ packages:
   filesAnalyzed: false
   homepage: "NONE"
   licenseConcluded: "NONE"
-  licenseDeclared: "GPL-3.0-only"
+  licenseDeclared: "LicenseRef-Bosch-Proprietary"
   packageFileName: "./spdx-dependency"
   name: "spdx-dependency"
   originator: "Person: Nicolas Nobelis"
